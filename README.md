@@ -105,7 +105,7 @@ $$softmax= \frac {e^{x_i}}{\sum_{j=0}^N{e^x_j}}$$
 ||$\notin$|
 ||$\varnothing$|
 ||$\forall$|
-||$${\exist}$$|
+||$\exists$|
 ||$\lnot$|
 ||$\nabla$|
 ||$\partial$|
