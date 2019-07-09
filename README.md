@@ -63,7 +63,8 @@
 |:----:|:----:|
 |求和 `$\sum_{i-1}^{N}(W_i*X_i+b_i)$` |$\sum_{i-1}^{N}(W_i*X_i+b_i)$|
 |极限`$\lim_{x \to 0}{f(x)}$`|$\lim_{x \to 0}{f(x)}$|
-|积分`$int_0^\infty{f(x)dx}$`|$int_0^\infty{f(x)dx}$|
+|积分`$\int_0^\infty{f(x)dx}$`|$\int_0^\infty{f(x)dx}$|
+|多重积分`$\iint_0^\infty{f(x)dx}$`|$\iint_0^\infty{f(x)dx}$|
 |分式  `$\frac {x+y}{x_0+y_0}$`|$\frac {x+y}{x_0+y_0}$|
 |根式 `$\sqrt[x][y]$`|$\sqrt[x][y]$|
 
@@ -86,26 +87,80 @@ $$softmax= \frac {e^{x_i}}{\sum_{j=0}^N{e^x_j}}$$
 #### 1.8 算式与特殊符号
 |  写法    |表示      |  
 |:----:|:----:|
-||$\pm$|
-||$\div$|
-||$\times$|
-||$\sum$|
-||$\prod$|
-||$\leq$|
-||$\neq$|
-||$\geq$|
-||$\infty$|
-||$\cup$|
-||$\cap$|
-||$\subset$|
-||$\subseteq$|
-||$\supset$|
-||$\supseteq$|
-||$\in$|
-||$\notin$|
-||$\emptyset$|
-||$\forall$|
-||$\exists$|
-||$\lnot$|
-||$\nabla$|
-||$\partial$|
+|`$\pm$`|$\pm$|
+|`$\div$`|$\div$|
+|`$\times$`|$\times$|
+|`$\sum$`|$\sum$|
+|`$\prod$`|$\prod$|
+|`$\leq$`|$\leq$|
+|`$\neq$`|$\neq$|
+|`$\geq$`|$\geq$|
+|`$\infty$`|$\infty$|
+|`$\cup$`|$\cup$|
+|`$\cap$`|$\cap$|
+|`$\subset$`|$\subset$|
+|`$\subseteq$`|$\subseteq$|
+|`$\supset$`|$\supset$|
+|`$\supseteq$`|$\supseteq$|
+|`$\in$`|$\in$|
+|`$\notin$`|$\notin$|
+|`$\emptyset$`|$\emptyset$|
+|`$\forall$`|$\forall$|
+|`$\exists$`|$\exists$|
+|`$\lnot$`|$\lnot$|
+|`$\nabla$`|$\nabla$|
+|`$\partial$`|$\partial$|
+
+#### 1.9 矩阵
+```
+\begin{matrix} 标识开始
+\end{matrix} 标识结束
+pmatrix 小括号外框
+bmatrix 中括号外框
+Bmatrix 大括号外框
+vmatrix 单竖线外框
+Vmatrix 双竖线外框
+\\ 行结尾
+&元素分割
+\cdots 横向省略号
+\vdots 竖向省略号
+\ddots 斜向省略号
+```
+示例：     
+`$$`    
+`A_{mn}=`  
+`\begin{bmatrix}`     
+`a_{00}&a_{01}&{\cdots}&{a_{0n}}\\`      
+`a_{10}&a_{11}&{\cdots}&{a_{1n}}\\`     
+`{\vdots}&{\vdots}&{\ddots}&{\vdots}\\`     
+`a_{m0}&a_{m1}&{\cdots}&{a_{mn}}\\`    
+`\end{bmatrix}`    
+`$$`     
+
+$$
+A_{mn}=
+\begin{bmatrix}
+a_{00}&a_{01}&{\cdots}&{a_{0n}}\\
+a_{10}&a_{11}&{\cdots}&{a_{1n}}\\
+{\vdots}&{\vdots}&{\ddots}&{\vdots}\\
+a_{m0}&a_{m1}&{\cdots}&{a_{mn}}\\
+\end{bmatrix}
+$$
+   
+#### 1.10 方程组   
+示例：          
+`$$`          
+`\begin{cases}`    
+`a_1x+b_1y+c_1z=d_1\\`  
+`a_2x+b_2y+c_2z=d_2\\`     
+`a_3x+b_3y+c_3z=d_3\\`      
+`\end{cases}`                           
+`$$`  
+
+$$
+\begin{cases}
+a_1x+b_1y+c_1z=d_1\\
+a_2x+b_2y+c_2z=d_2\\
+a_3x+b_3y+c_3z=d_3\\
+\end{cases}
+$$
