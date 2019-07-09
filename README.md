@@ -28,12 +28,12 @@
 > - 首字母大写即为大写表示：`$\Theta$`为 $\Theta$
 > - 加`var`前缀则为斜体表示：`\$vartheta$`为 $\vartheta$
 
-#### 1.3 上下标
+#### 1.3 上下标    
 `_`表示下标，`^`表示上标  
         
 |  写法    |表示      |  
 |:----:|:----:|
-| `$\alpha$`| $\alpha$ |
+|`$\alpha$`| $\alpha$ |
 |`$I_i$`|$I_i$|
 |`$I^j$`|$I^j$|
 |`$I_i^{ka+b}$`|$I_i^{ka+b}$|
@@ -42,6 +42,6 @@
 利用`\vec`和`\overrightarrow`(注意空格)     
 |  写法    |表示      |  
 |:----:|:----:|
-|`$\vec {a}$`|$\vec {a}$ |   
-|`$\overrightarrow {a+b}$`|$\overrightarrow {a+b}$ |
+|`$\vec {a}$`| $\vec {a}$ |   
+|`$\overrightarrow {a+b}$`|  $\overrightarrow {a+b}$ |
 
