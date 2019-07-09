@@ -44,6 +44,7 @@
 |:----:|:----:|
 |`$\vec {a}$`| $\vec {a}$ |   
 |`$\overrightarrow {a+b}$`|  $\overrightarrow {a+b}$ |
+|`$x \to 0$`|$x \to 0$|
 
 #### 1.5 分组与括号
 
@@ -54,4 +55,57 @@
 |中括号 无空格  `$[a b c]$` 	|$[a b c]$|
 |大括号`{}`用来分组    `$10^{20}$`|$10^{20}$|
 |若无大括号`{}` `$10^20$`|$10^20$  `(error)`|
-|尖括号 `$< \overrightarrow {xyz}>$`|$< \overrightarrow {xyz}>$|
+|尖括号 `$<\overrightarrow {xyz}>$`|$<\overrightarrow {xyz}>$|
+
+#### 1.6  求和，极限，积分，分式，根式   
+
+|  写法    |表示      |  
+|:----:|:----:|
+|求和 `$\sum_{i-1}^{N}(W_i*X_i+b_i)$` |$\sum_{i-1}^{N}(W_i*X_i+b_i)$|
+|极限`$\lim_{x \to 0}{f(x)}$`|$\lim_{x \to 0}{f(x)}$|
+|积分`$int_0^\infty{f(x)dx}$`|$int_0^\infty{f(x)dx}$|
+|分式  `$\frac {x+y}{x_0+y_0}$`|$\frac {x+y}{x_0+y_0}$|
+|根式 `$\sqrt[x][y]$`|$\sqrt[x][y]$|
+
+#### 1.7 函数
+常用函数
+
+|  写法    |表示      |  
+|:----:|:----:|
+| `$\min{(w*x+b)}$`|$\min{(w*x+b)}$|
+|`$\max{(w*x+b)}$`|$\max{(w*x+b)}$|
+|`$\sin{(w*x+b)}$`|$\sin{(w*x+b)}$|
+|`$\cos{(w*x+b)}$`|$\cos{(w*x+b)}$|
+|`$\tan{(w*x+b)}$`|$\tan{(w*x+b)}$|
+|`$\ln{(w*x+b)}$`|$\ln{(w*x+b)}$|
+ 
+其他函数通用写法：   
+`$$softmax= \frac {e^{x_i}}{\sum_{j=0}^N{e^x_j}}$$`
+$$softmax= \frac {e^{x_i}}{\sum_{j=0}^N{e^x_j}}$$
+
+#### 1.8 算式与特殊符号
+|  写法    |表示      |  
+|:----:|:----:|
+||$\pm$|
+||$\div$|
+||$\times$|
+||$\sum$|
+||$\prod$|
+||$\leq$|
+||$\neq$|
+||$\geq$|
+||$\infty$|
+||$\cup$|
+||$\cap$|
+||$\subset$|
+||$\subseteq$|
+||$\supset$|
+||$\supseteq$|
+||$\in$|
+||$\notin$|
+||$\varnothing$|
+||$\forall$|
+||$\exist$|
+||$\lnot$|
+||$\nabla$|
+||$\partial$|
