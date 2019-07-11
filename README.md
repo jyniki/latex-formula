@@ -37,7 +37,7 @@
 |`$I^j$`|$I^j$|
 |`$I_i^{ka+b}$`|$I_i^{ka+b}$|
 
-#### 1.4 矢量
+#### 1.4 箭头及字母上方标识
 利用`\vec`和`\overrightarrow`(注意空格)     
 
 |  写法    |表示      |  
@@ -45,6 +45,13 @@
 |`$\vec {a}$`| $\vec {a}$ |   
 |`$\overrightarrow {a+b}$`|  $\overrightarrow {a+b}$ |
 |`$x \to 0$`|$x \to 0$|
+|`$\vec{a}$`|$\vec{a}$|  
+|`$\overline{a}$`|$\overline{a}$|
+|`$\widehat{a}$`|$\widehat{a}$|
+|`$\widetilde{a}$`|$\widetilde{a}$| 
+|`$\dot{a}$`|$\dot{a}$ |
+|`$\ddot{a}$`| $\ddot{a}$|
+
 
 #### 1.5 分组与括号
 
