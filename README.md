@@ -1,4 +1,5 @@
 ## markdown 常用公式编辑
+Ref:<https://blog.csdn.net/shuqiaos/article/details/82995542>
 ### 1. 基本用法
 #### 1.1 呈现位置
 `$...$`用来在文本中嵌入显示; `$$....$$`则为隔行居中显示
